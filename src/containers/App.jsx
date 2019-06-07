@@ -13,32 +13,20 @@ import Skills from '../components/Skills';
 
 
 const App = () => {
-    return(
+    return (
         <Main>
             <Sidebar>
-                <About>
-
-                </About>
-                <Social>
-
-                </Social>
+                <About />
+                <Social />
             </Sidebar>
             <Info>
-                <Education>
-
-                </Education>
-                <Experience>
-
-                </Experience>
-                <Certificates>
-                    
-                </Certificates>
-                <Skills>
-
-                </Skills>
+                <Education />
+                <Experience />
+                <Certificates />            
+                <Skills />
             </Info>
         </Main>
     );
-};
+}
 
 export default App;

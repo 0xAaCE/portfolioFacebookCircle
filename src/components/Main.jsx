@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const Main = ({children}) => (
+const Main = ({ children }) => (
     <div className="Main">
         <div className="Main-container">
             {children}

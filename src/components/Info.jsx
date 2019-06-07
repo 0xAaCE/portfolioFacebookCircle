@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const info = ({children}) => (
+const Info = ({ children }) => (
     <div className="Info">
         <div className="Info-container">
             {children}
