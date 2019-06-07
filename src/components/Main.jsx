@@ -8,4 +8,4 @@ const Main = ({children}) => (
     </div>
 );
 
-export default Main
+export default Main;

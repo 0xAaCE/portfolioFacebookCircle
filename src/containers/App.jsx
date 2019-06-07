@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar';
 import Info from '../components/Info';
 import About from '../components/About';
 import Social from '../components/Social';
-import Educacion from '../components/Educacion';
+import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Certificates from '../components/Certificates';
 import Skills from '../components/Skills';
@@ -24,9 +24,9 @@ const App = () => {
                 </Social>
             </Sidebar>
             <Info>
-                <Educacion>
+                <Education>
 
-                </Educacion>
+                </Education>
                 <Experience>
 
                 </Experience>
