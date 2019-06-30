@@ -10,11 +10,10 @@ const useGetData = () => {
     useEffect(() => {
         fetch(api)
             .then(response => response.json())
-            .then(data => setData(data))
-        
-    }, [])
+            .then(data => setData(data.data))
+    }, []);
     
-    return mydata
+    return mydata;
 }
 
 export default useGetData;

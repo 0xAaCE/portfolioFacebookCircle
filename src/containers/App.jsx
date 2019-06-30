@@ -15,13 +15,14 @@ import useGetData from '../hooks/useGetData'
 
 const App = () => {
     const data = useGetData();
-    return (
+    console.log(data);
+    return data.length === 0 ? <h1>Cargando ....</h1> : (
         <Main>
             <Sidebar>
                 <About
                  avatar = {data.avatar}
                  name = {data.name}
-                 profession = {data.provession}
+                 profession = {data.profession}
                  bio = {data.bio}
                  address = {data.address}
                  social = {data.social}
@@ -29,10 +30,10 @@ const App = () => {
                 <Social />
             </Sidebar>
             <Info>
-                <Education />
-                <Experience />
-                <Certificates />            
-                <Skills />
+                <Education data = {data.education} />
+                <Experience data = {data.experience}/>
+                <Certificates data = {data.certificate}/>            
+                <Skills data = {data.skills}/>
             </Info>
         </Main>
     );
